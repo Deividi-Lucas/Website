@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon_package_v0.16/favicon.ico" type="image/x-icon">
+    <title >Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<style>
+* {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: white;
+}
+
+h1 {
+    background: linear-gradient(yellow, green);
+    background-clip: text;
+    color: transparent;
+    cursor: text;
+    /*animation: fundo 5s infinite alternate-reverse ease-in-out;*/
+}
+
+
+a {
+    padding: 20px;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+.apache {
+    background: linear-gradient(to bottom, red 30%, white);
+    -webkit-background-clip: text;
+    color: transparent;
+    cursor: pointer;
+
+}
+
+.html {
+    background: linear-gradient(to bottom, orange 30%, white);
+    webkit-background-clip: text;
+    color: transparent;
+}
+
+.CSS {
+    background: linear-gradient(to bottom, blue 20%, rgb(177, 177, 214));
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+
+.js {
+    background: linear-gradient(to bottom, rgb(223, 223, 26) 50%, black);
+    -webkit-background-clip: text;
+    color: transparent; 
+}
+
+#vermelho:hover{
+    transition: 300ms;
+    background-color: red;
+    color: white;
+}
+
+#azul:hover {
+    transition: 300ms;
+    background-color: blue;
+    color: white
+        
+}
+
+#verde:hover {
+    transition: 300ms;
+    background-color: green;
+    color: white
+        
+}
+
+
+p:hover {
+    transition: 300ms;
+    transform: translateY(-2px);
+}
+
+/*@keyframes fundo {
+    0% {
+        background: red;
+    }
+
+    25% {
+        background: orange;
+    }
+
+    50% {
+        background: yellow;
+    }
+
+
+    75% {
+        background: green;
+    }
+
+    100% {
+        background: aqua;
+    }
+}   */
+
+
+</style>
+<body>
+    <h1>Desenvolvimento Front-End</h1>
+    <div class="linguagem">
+        <h2>
+            <a class="html">HTML</a>
+            <a class="CSS">CSS</a>
+            <a class="js">Javascript</a>
+            <a class="apache" href="apache.html">Apache</a>
+        </h2>
+        <p id="html">Html é um hipertexto de marcação, o qual serve para fazer a estrutura do site. Servindo mais para
+            fazer demonstragem de conteúdo</p>
+        <p id="css">CSS é uma folha de estilo para fazer alteração das marcações. Em resumo é para deixar a página mais
+            estética.</p>
+        <p id="js">Javascript é uma linguagem de programação utilizado para intereção da página com o usúario. </p>
+        <p id="apache">Apache é um servidor http, utilizado para serviço web.</p>
+    </div>
+    <div class="cores">
+        <button onclick="seletor('red')" id="vermelho">Vermelho</button>
+        <button onclick="seletor('blue ')" id="azul">Azul</button>
+        <button onclick="seletor('green ')" id="verde">Verde</button>
+        <button onclick="seletor('white')"type="reset">Redefinir</button>
+        <button ondblclick="seletor('black')">Preto(duplo click)</button>
+    </div>
+    <div class="menu">
+        <a href="index.html" style="display: flex;">Página inicial</a>
+    </div>
+
+</body>
+
+<script>
+    let name = "Deividi"
+let idade = 19
+let pai = "davi"
+let msg = 'Já adicionado o Javascript nesta página'
+let idadepai = 50
+
+console.log(name)
+
+console.log(idade)
+
+console.log(msg)
+
+console.log("bem vindo ao curso.")
+
+// object 
+
+let id = {
+    idade
+}
+console.log(id)
+
+// Array
+
+let familia = [26, 30, 35, 49];
+
+
+console.log(familia)
+
+// functions 
+// verbo mais substantivo = mais facil lembrar
+let corSite = ''
+function resetacor(cor) {
+    corSite = cor
+};
+
+
+console.log(corSite)
+
+
+// dois tipo de functions, 
+// realiza uma tarefa e não devolve nada.
+function dizerNome() {
+    console.log('deividi')
+}
+
+dizerNome()
+
+// realiza uma tarefa e retorna 
+function multiplicarpordois(valor) {
+    return valor * 2
+}
+
+console.log(multiplicarpordois(5))
+
+//Operadores aritméticos (matématico)
+// Operadores atribuição
+//Operadores de comparação
+//Operadores Lógicos
+// Operadores Bitwise
+
+// ultilizando if e else
+let horas = 7
+
+if (horas > 6 && horas < 12) {
+    console.log("Bom dia!")
+}
+else if (horas > 12 && horas < 18) {
+    console.log("Boa Tarde!")
+}
+else {
+    console.log("Boa noite!")
+};
+
+
+let permissao // comum, Premium, diretor
+permissao = 'premium'
+switch (permissao) {
+    case 'comum':
+        console.log("usuário comum")
+        break;
+    case 'premium':
+        console.log("usuário Premium")
+        break;
+    case "Diretor":
+        console.log("Usuário Diretor")
+        break
+
+    default:
+        console.log("Usuário não reconhecido!")
+        break;
+}
+
+
+// for // while // do.. while// for ..in //for of 
+//Loops   for ([inicial];[condição];[expressão final]){        };
+
+for (let contador = 0; contador <= 4; contador++ ) {
+    console.log("Estou fazendo loop")
+}
+
+// while loop
+
+let i = 5
+
+while (i < 6){
+    console.log('I é menor que 6')
+    break
+    i = i +1
+}
+
+const pessoa = {
+    nome: 'deividi',
+    idade: 19 
+}
+
+for(let chave in pessoa) {
+    console.log(chave,pessoa.nome)
+}
+
+
+//Alterador do plano de fundo. utilizado nos botao
+function seletor (cor) {
+    document.body.style.background = cor
+}
+
+</script>
+</html> 
