@@ -1,13 +1,5 @@
-git init 
-git add . 
-git commit -m 'nome'
-git branch -M main 
-git remote add origin 'https'
-git push -u origin main 
+## WebSite em construção 😎
+<p>Este repositório tem por finalizade a criação do meu portifólio.<br>
+O qual está em desenvolvimento para melhor aprendizagem</p>
 
-
-
-git add 'arquivo'
-git commit -m 'nome'
-git push origin main 
-
+#### Projeto iniciado no dia 30 de Dez de 2022
