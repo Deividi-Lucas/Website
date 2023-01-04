@@ -2,12 +2,6 @@
     margin: 0;
 }
 
-html,
-body {
-    height: auto;
-}
-
-
 .about-me {
     height: 100vh;
     position: relative;
@@ -28,8 +22,6 @@ body {
     border-radius: 19px;
     text-align: inherit;
 }
-
-
 
 #logo {
     border-radius: 150px;
@@ -52,24 +44,6 @@ header {
     position: relative;
     display: flex;
     margin-top: 15px;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-}
-
-li {
-    padding: 15px;
-}
-
-a {
-    font-size: 40px;
-}
-
-#text{
-    width: 450px;
-    text-align: justify;
 }
 
 #linkedin{
