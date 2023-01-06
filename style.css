@@ -18,7 +18,6 @@
 
 #contact {
     height: 10vh;
-    display: flexbox;
     border-radius: 19px;
     text-align: inherit;
 }
@@ -49,4 +48,36 @@ header {
 #linkedin{
     height: 50px;
     padding-top: 5px;
+}
+
+@media (max-width: 640px){
+    header{
+        display: block;
+        text-align: center;
+        margin-left: 5px;
+    }
+
+}
+
+@media (max-width: 1920px){
+    #text{
+        width: 450px;
+    }
+    a{
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 320px){
+    #text{
+        width: 250px;
+    }
+    header{
+        display: block;
+        text-align: center;
+        margin-left: 5px;
+    }
+    a{
+        font-size: 25px;
+    }
 }
