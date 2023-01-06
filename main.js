@@ -17,7 +17,6 @@ function color(){
     //loop para estilização de vários item
     while (cont < link_navegacao.length){
         link_navegacao.item(cont).style.color = 'white'
-        link_navegacao.item(cont).style.fontSize = '40px'
         cont ++
     }
     cont = 0
@@ -38,13 +37,11 @@ function color(){
 
     local.style.cssText = 'color: white; textShadow: 1px 2px 3px black;' // Local de moradia
 
-    personal.item(0).style.background = '#1B1B1B' //Container secudário cor
-
-    text.style.cssText = 'text-align: justify; color: white; width: 450px;' // Texto pessoal estilização
+    text.style.cssText = 'text-align: justify; color: white;' // Texto pessoal estilização
 
     main.style.cssText = 'height: 100vh; display:flexbox; text-align:center;' // Parte de title e fotografia 
 
-    contact.style.background = '#282828'
+    contact.style.background = '#1B1B1B'
 }   
 
 color()
