@@ -84,3 +84,18 @@ header {
         font-size: 25px;
     }
 }
+
+@media (max-width: 600px){
+    #text{
+        width: 250px;
+    }
+    header{
+        display: block;
+        text-align: center;
+        margin-left: 5px;
+    }
+    a{
+        font-size: 25px;
+    }
+}
+
