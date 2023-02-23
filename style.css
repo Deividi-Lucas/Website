@@ -2,6 +2,7 @@
     margin: 0;
 }
 
+/* texto falando sobre mim  */
 .about-me {
     height: 100vh;
     position: relative;
@@ -11,23 +12,28 @@
     padding-top: 50px;
 }
 
+/* FOTO DE PERFIL  */
 #foto-main {
     border-radius: 150px;
     height: 350px;
 }
 
+
+/* PARTE DE CONTATO COMIGO */
 #contact {
     height: 10vh;
     border-radius: 19px;
     text-align: inherit;
 }
 
+/* LOGO DEV DEIVIDI */
 #logo {
     border-radius: 150px;
     position: relative;
     height: 100px;
     margin-left: 15px;
 }
+
 
 footer {
     height: 50px;
@@ -38,11 +44,12 @@ footer {
     justify-content: center;
 }
 
-
-header {
+/* PARTE DE NAVEGAÇÃO QUE ESTÁ EM DESENVOLVIMENTO */
+/* NAVEGAÇÃO PELA PÁGINA */
+nav {
     position: relative;
     display: flex;
-    margin-top: 15px;
+    border: black 2px solid;
 }
 
 #linkedin{
@@ -50,19 +57,9 @@ header {
     padding-top: 5px;
 }
 
-@media (max-width: 640px){
-    header{
-        display: block;
-        text-align: center;
-        margin-left: 5px;
-    }
-    #text{
-        width: 250px;
-    }
 
-}
-
-@media (max-width: 1920px){
+/* MEDIA QUERy */
+@media (min-width: 1200px){
     #text{
         width: 450px;
     }
@@ -71,25 +68,23 @@ header {
     }
 }
 
-@media (max-width: 320px){
-    #text{
-        width: 250px;
-    }
-    header{
+@media (max-width: 640px){
+    nav{
         display: block;
         text-align: center;
         margin-left: 5px;
     }
-    a{
-        font-size: 25px;
+    #text{
+        width: 250px;
     }
+
 }
 
 @media (max-width: 600px){
     #text{
         width: 250px;
     }
-    header{
+    nav{
         display: block;
         text-align: center;
         margin-left: 5px;
@@ -99,3 +94,16 @@ header {
     }
 }
 
+@media (max-width: 320px){
+    #text{
+        width: 250px;
+    }
+    nav{
+        display: block;
+        text-align: center;
+        margin-left: 5px;
+    }
+    a{
+        font-size: 25px;
+    }
+}
