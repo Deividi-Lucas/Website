@@ -24,6 +24,7 @@
     height: 10vh;
     border-radius: 19px;
     text-align: inherit;
+    overflow: hidden;
 }
 
 /* LOGO DEV DEIVIDI */
@@ -54,7 +55,11 @@ nav {
 
 #linkedin{
     height: 50px;
-    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+#github{
+    height: 75px;
 }
 
 
