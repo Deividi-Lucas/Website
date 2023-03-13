@@ -29,7 +29,7 @@ function color(){
     cont = 0
    
 
-    footer.item(0).style.cssText = 'background: #d12323; color:white; font-size: large;'
+    footer.item(0).style.cssText = 'background: #d12323; color:white; font-size: large;' //parte me produção
 
     title.style.color = 'white' // Cor do meu nome
 
@@ -45,3 +45,6 @@ function color(){
 }   
 
 color()
+
+
+
