@@ -89,6 +89,20 @@ nav {
     }
 }
 
+@media (max-width: 800px){
+    #text{
+        width: 350px;
+    }
+    nav{
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+    }
+    a{
+        font-size: 25px;
+    }
+}
+
 
 @media (max-width: 600px){
     #text{
