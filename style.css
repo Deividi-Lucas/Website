@@ -80,6 +80,9 @@ nav {
 
 
 /* MEDIA QUERy */
+    
+
+
 @media (min-width: 1200px){
     #text{
         width: 550px;
@@ -89,7 +92,17 @@ nav {
     }
 }
 
-@media (max-width: 800px){
+@media (max-width: 1200px){
+    #text{
+        width: 500px;
+    }
+    a{
+        font-size: 40px;
+    }
+}
+
+
+@media (max-width: 1000px){
     #text{
         width: 350px;
     }
@@ -102,6 +115,8 @@ nav {
         font-size: 25px;
     }
 }
+
+
 
 
 @media (max-width: 600px){
@@ -120,14 +135,33 @@ nav {
 
 @media (max-width: 320px){
     #text{
-        width: 250px;
+        width: 150px;
     }
     nav{
         display: block;
         text-align: center;
-        margin-left: 0px;
+        margin-left: 1px;
     }
     a{
-        font-size: 25px;
+        font-size: 18px;
+    }
+    .about-me{
+        font-size: 10px;
+    }
+    #foto-main{
+        height: 15rem;
+    }
+    img:hover{
+        transform: scale(1.01);
+    }
+    #logo {
+        height: 4rem;
+    }
+    #linkedin{
+        height: 2rem;
+    }
+    #github{
+        height: 3.3rem;
     }
 }
+
