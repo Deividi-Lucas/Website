@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient( #716accff, #2014ca);
+  height: 100vh;
+}
+
+a {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.projects{
+  text-align: center;
+  display: flex;
+}
+
+.title-link{
+  color: white;
+  font-size: 1.1rem;
+  text-shadow: 1px 1px 4px black;
+}
+
+.title-link:hover{
+  color: #ffffffe2;
+}
+
+.project-website{
+  margin-bottom: 1rem;
+}
