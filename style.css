@@ -78,6 +78,15 @@ nav {
     height: 75px;
 }
 
+.navbar {
+    text-decoration: none;
+
+}
+
+.navbar:hover {
+    border-bottom: 0.166rem solid #f3ab3f;
+}
+
 
 /* MEDIA QUERy */
     
