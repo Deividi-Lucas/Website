@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+div.App{
+  color: white;
+  height: 100vh;
+  background-image: url('../../image/plano_de_fundo_main.jpg');
+  background-size: 100% 100%;
+  
+  header{
+    background: rgb(0, 0, 0,0.5);
+    height: 5rem;
+  }
+
+}
