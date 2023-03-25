@@ -1,10 +1,22 @@
 * {
     margin: 0;
+    padding: 0;
 }
 
+body{
+    background-image: url(image/pexels-neo-2653362.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    overflow-y: scroll;
+}
+
+
+
 .second{
-    background: linear-gradient(#282828, #3f3e3e);
-    border-radius: 1em;
+    background: linear-gradient(#282828, #3f3e3e); 
+     border-radius: 1em;
 }
 
 /* texto falando sobre mim  */
@@ -66,7 +78,6 @@ footer {
 nav {
     position: relative;
     display: flex;
-    border: black 2px solid;
 }
 
 #linkedin{

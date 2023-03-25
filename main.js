@@ -9,42 +9,39 @@ let list_item = document.getElementsByTagName('li')
 let link_navegacao = document.getElementsByTagName('a')
 let ul = document.getElementsByTagName('ul')
 
+function color() {
+  // Old version
+  //   document.body.style.background = '#282828'
 
-function color(){
-    document.body.style.background = '#282828'
-    
-    var cont = 0 
-    //loop para estilização de vários item
-    while (cont < link_navegacao.length){
-        link_navegacao.item(cont).style.color = 'white'
-        cont ++
-    }
-    cont = 0
+  var cont = 0
+  //loop para estilização de vários item
+  while (cont < link_navegacao.length) {
+    link_navegacao.item(cont).style.color = 'white'
+    cont++
+  }
+  cont = 0
 
-    //loop para estilização de vários item
-    while (cont < list_item.length){
-        list_item.item(cont).style.padding = '15px'
-        cont ++
-    }
-    cont = 0
-   
+  //loop para estilização de vários item
+  while (cont < list_item.length) {
+    list_item.item(cont).style.padding = '15px'
+    cont++
+  }
+  cont = 0
 
-    footer.item(0).style.cssText = 'background: #d12323; color:white; font-size: large;' //parte me produção
+  footer.item(0).style.cssText =
+    'background: #d12323; color:white; font-size: large;' //parte me produção
 
-    title.style.color = 'white' // Cor do meu nome
+  title.style.color = 'white' // Cor do meu nome
 
-    ul.item(0).style.cssText = ' list-style: none; display: flex;' //Organização da listagem
+  ul.item(0).style.cssText = ' list-style: none; display: flex;' //Organização da listagem
 
-    local.style.cssText = 'color: white; textShadow: 1px 2px 3px black;' // Local de moradia
+  local.style.cssText = 'color: white; textShadow: 1px 2px 3px black;' // Local de moradia
 
-    text.style.cssText = 'text-align: justify; color: white;' // Texto pessoal estilização
+  text.style.cssText = 'text-align: justify; color: white;' // Texto pessoal estilização
 
-    main.style.cssText = 'height: 100vh; display:flexbox; text-align:center;' // Parte de title e fotografia 
+  main.style.cssText = 'height: 100vh; display:flexbox; text-align:center;' // Parte de title e fotografia
 
-    contact.style.background = '#1B1B1B'
-}   
+  contact.style.background = '#1B1B1B'
+}
 
 color()
-
-
-
