@@ -1,0 +1,28 @@
+header{
+  background: rgb(0, 0, 0,0.5);
+  height: 5rem;
+  display: grid;
+  justify-items: center;
+
+  li{
+    list-style: none;
+  }
+
+  a{
+    margin: 1rem;
+    color: white;
+    text-decoration: none;
+
+    &:hover
+    {
+      text-decoration: underline;
+      text-decoration-color: orange;
+    }
+  }
+
+  img{
+    height: 3rem;
+    border-radius: 1rem;
+
+  }
+}
