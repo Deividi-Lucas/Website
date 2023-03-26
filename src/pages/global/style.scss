@@ -7,4 +7,7 @@ div.App{
   height: 100vh;
   background-image: url(../../images/plano_de_fundo_main.jpg);
   background-size: 100% 100%;
+  overflow-y: scroll;
+  background-repeat: no-repeat;
+
 }
