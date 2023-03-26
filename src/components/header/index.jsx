@@ -13,7 +13,7 @@ export default function Header() {
         <li>
           <Link to="/about">Sobre mim</Link>
           <Link to="/contact">Contato</Link>
-          <Link to="/projetos">Projetos</Link>
+          <Link to="/project">Projetos</Link>
         </li>
       </nav>
     </header>
