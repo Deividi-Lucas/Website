@@ -1,0 +1,58 @@
+div.Contact{
+  color:white;
+
+  .contact_icon{
+    background-color: rgb(255, 255, 255,0.1);
+    padding: 1rem;
+    border-radius: 0 1rem 1rem 0;
+    width: 10rem;
+    height: min-content;
+    a{
+      text-decoration: none;
+    }
+  }
+
+  .contact_linkedin{
+    margin-top: 4rem;
+    height: 15rem;
+    display: grid;
+    justify-items: center;
+    #linkedin{
+      height: 5rem;
+      &:hover{
+        transform: scale(120%);
+        transition: 500ms;
+      }
+    }
+    
+    span{
+      font-size: 2rem;
+      color: white;
+      &:hover{
+        border-bottom: orange 0.06rem solid;
+      }
+    }
+  }
+
+  .contact_github{
+    height: 15rem;
+    display: grid;
+    justify-items: center;
+    #github{
+      height: 6rem;
+      &:hover{
+        transform: scale(120%);
+        transition: 500ms;
+      }
+    }
+    
+    span{
+      font-size: 2rem;
+      color: white;
+      &:hover{
+        border-bottom: orange 0.06rem solid;
+      }
+    }
+  }
+
+}
