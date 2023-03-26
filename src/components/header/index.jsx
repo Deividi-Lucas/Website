@@ -1,15 +1,21 @@
 import './style.scss'
 import dev from '../../images/Dev.png'
+import { Link } from 'react-router-dom'
 
 export default function Header() {
   return (
     <header>
-      <img src={dev} alt="dev" />
-      <li>
-        <a href="https://github.com/Deividi-Lucas">Sobre mim</a>
-        <a href="https://google.com">Contato</a>
-        <a href="https://facebook.com">Projetos</a>
-      </li>
+      <nav>
+        <Link to="/">
+          <img src={dev} alt="dev" />
+        </Link>
+
+        <li>
+          <Link to="/about">Sobre mim</Link>
+          <Link to="/contact">Contato</Link>
+          <Link to="/projetos">Projetos</Link>
+        </li>
+      </nav>
     </header>
   )
 }

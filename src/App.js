@@ -1,10 +1,17 @@
 import './pages/global/style.scss'
-import Main from './pages/home'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Home from './pages/home'
+import About from './pages/about'
 
 function App() {
   return (
     <div className="App">
-      <Main />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/About" element={<About />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
