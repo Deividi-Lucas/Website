@@ -8,7 +8,6 @@ header{
 
   }
   .photo_link{
-    width: 10vw;
     grid-area: img;
     height: 4.5rem;
     display: flex;
@@ -40,21 +39,34 @@ header{
     }
   }
 
-  // @media screen {min-width: 400px;
-  //   nav{
-  //     display: grid;
-  //     grid-template-areas: 
-  //     'img'
-  //     'links';
-  //   }
-  //   .photo_link{
-  //     grid-area: img;
-  //     width: 100%;
-  //   }
-  //   .link{
-  //     grid-area: links;
-  //   }
+}
+
+
+@media (max-width: 400px){
+  nav{
+    display: grid;
+    grid-template-areas: 
+    'img img'
+    'links links';
+
+    .photo_link{
+      grid-area: img;
+      
+      img{
+        width: 100%;
+      }
+    }
+    .link{
+      grid-area: links;
+      display: flexblox;
     
-  // }
+    }
+    
+  
+  }
+  
+
+  
+  
 
 }
