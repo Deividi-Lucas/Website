@@ -40,18 +40,21 @@ header{
     }
   }
 
-  @media screen {max-width: 400px;
-    nav{
-      display: grid;
-      grid-template-areas: 
-      'img'
-      'links';
-    }
-    .photo_link{
-      grid-area: img;
-      width: 100%;
-    }
+  // @media screen {min-width: 400px;
+  //   nav{
+  //     display: grid;
+  //     grid-template-areas: 
+  //     'img'
+  //     'links';
+  //   }
+  //   .photo_link{
+  //     grid-area: img;
+  //     width: 100%;
+  //   }
+  //   .link{
+  //     grid-area: links;
+  //   }
     
-  }
+  // }
 
 }
