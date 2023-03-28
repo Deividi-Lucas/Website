@@ -1,8 +1,18 @@
-.about {
+.container_about {
   color: white;
+  display: grid;
+  grid-template-areas: 'left right';
+  
+  h1{
+    grid-area: left;
+    display: flex;
+    align-items: center;
+  }
+
   p{
     margin: 2rem;
     text-align: justify;
+    grid-area: right;
   }
 
 }
