@@ -7,9 +7,10 @@ export default function Contact() {
   return (
     <div className="Contact">
       <Header />
-      <h1>Contact</h1>
-      <div className="contact_icon">
-        <div className="contact_linkedin">
+      <div className="container_contact">
+        <h1>Contact</h1>
+
+        <div className="linkedin_icon">
           <a
             href="https://www.linkedin.com/in/deividi-lucas-a60612254/"
             target={'_blank'}
@@ -25,13 +26,13 @@ export default function Contact() {
           </a>
         </div>
 
-        <div className="contact_github">
+        <div className="github_icon">
           <a
             href="https://github.com/Deividi-Lucas"
             target={'_blank'}
             rel={'noreferrer'}
           >
-            <img src={github} alt="github" id="github" />
+            <img src={github} alt="github" id="github" className="github" />
             <span>Github</span>
           </a>
         </div>

@@ -1,58 +1,77 @@
-div.Contact{
-  color:white;
-
-  .contact_icon{
-    background-color: rgb(255, 255, 255,0.1);
-    padding: 1rem;
-    border-radius: 0 1rem 1rem 0;
-    width: 10rem;
-    height: min-content;
-    a{
-      text-decoration: none;
-    }
+div.container_contact{
+  display: grid; 
+  grid-template-areas: 
+  'title title'
+  'linkedin github'
+  ; 
+  color: white;
+  h1{
+    grid-area: title;
+    text-align: center;
   }
 
-  .contact_linkedin{
-    margin-top: 4rem;
-    height: 15rem;
-    display: grid;
-    justify-items: center;
-    #linkedin{
+  .linkedin_icon{
+    grid-area: linkedin;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    padding: 0.8rem;
+    align-items: center;
+    background: linear-gradient( rgb(0, 255, 255), rgb(1, 71, 71));
+    border-radius: 1rem;
+
+    span:hover{
+      border-bottom: 0.06rem solid orange;
+    }
+    
+
+    .linkedin{
       height: 5rem;
+      margin-bottom: 1rem;
+      transform: scale(70%);
       &:hover{
-        transform: scale(120%);
-        transition: 500ms;
+        transform: scale(100%);
+        transition: 300ms;
       }
     }
-    
-    span{
-      font-size: 2rem;
-      color: white;
-      &:hover{
-        border-bottom: orange 0.06rem solid;
-      }
-    }
+  
   }
 
-  .contact_github{
-    height: 15rem;
-    display: grid;
-    justify-items: center;
-    #github{
-      height: 6rem;
-      &:hover{
-        transform: scale(120%);
-        transition: 500ms;
-      }
-    }
-    
-    span{
-      font-size: 2rem;
-      color: white;
-      &:hover{
-        border-bottom: orange 0.06rem solid;
-      }
-    }
+
+  .github_icon{
+  grid-area: github;
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  padding: 0.8rem;
+  align-items: center;
+  background: linear-gradient(  rgb(142, 204, 224), rgb(41, 60, 66));
+  border-radius: 1rem;
+  
+  span:hover{
+    border-bottom: 0.06rem solid orange;
   }
+  
+  .github{
+    height: 5rem;
+    margin-bottom: 1rem;
+    
+    &:hover{
+      transform: scale(150%);
+      transition: 300ms;
+    }  
+  }
+
+  }
+
 
 }
+
+a{
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
