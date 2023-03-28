@@ -6,15 +6,17 @@ export default function Header() {
   return (
     <header>
       <nav>
-        <Link to="/">
-          <img src={dev} alt="dev" />
-        </Link>
-
-        <li>
+        <div className="photo_link">
+          <Link to="/">
+            <img src={dev} alt="dev" />
+          </Link>
+        </div>
+        <div className="link">
+          <Link to="/">Início</Link>
           <Link to="/about">Sobre mim</Link>
           <Link to="/contact">Contato</Link>
           <Link to="/project">Projetos</Link>
-        </li>
+        </div>
       </nav>
     </header>
   )
