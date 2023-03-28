@@ -1,12 +1,13 @@
 .container_about {
   color: white;
   display: grid;
-  grid-template-areas: 'left right';
+  grid-template-areas: 'left ''right';
   
   h1{
     grid-area: left;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
 
   p{
@@ -14,5 +15,6 @@
     text-align: justify;
     grid-area: right;
   }
+
 
 }
