@@ -2,6 +2,7 @@ import './style.scss'
 import Header from '../../components/header'
 import personal_site from '../../images/Website-personal.jpg'
 import project_converter from '../../images/Converte-Cash.png'
+import timer_project from '../../images/Timer.png'
 
 export default function Project() {
   return (
@@ -24,6 +25,10 @@ export default function Project() {
               className="ConverterCash"
             />
             <span>Convertor de dinheiro</span>
+          </div>
+          <div className="TimerProject">
+            <img src={timer_project} alt="Projeto_timer" className="timer" />
+            <span>Temporizador</span>
           </div>
         </div>
       </main>

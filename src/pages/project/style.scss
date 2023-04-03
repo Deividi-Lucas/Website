@@ -47,7 +47,27 @@
           transition: 100ms;
         }
       }
+      .TimerProject{
+        display: flex;
+        flex-direction: column;
+        width: 6rem;
+        gap: 1rem;
+        span{
+          text-align: center;
+        }
 
+        span:hover{
+          border-bottom: 0.06rem solid orange;
+          cursor: pointer;
+        }
+
+        .timer:hover{
+          transform: scale(120%);
+          transition: 100ms;
+          cursor: pointer;
+        }
+
+      }
 
     }
   }
