@@ -3,22 +3,22 @@ header{
 
   nav{
     
-    display: grid;
-    grid-template-areas: 'img links';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem;
 
   }
   .photo_link{
-    grid-area: img;
-    height: 4.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     img{
       height: 3rem;
       border-radius: 1rem;
+      transition: 200ms;
       &:hover{
         transform: scale(120%);
-        transition: 200ms;
       }
     }
   }
@@ -26,8 +26,6 @@ header{
   .link{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    grid-area: links;
 
     a{
       margin-right: 2rem;
@@ -42,31 +40,8 @@ header{
 }
 
 
-@media (max-width: 400px){
+@media (max-width: 856px){
   nav{
-    display: grid;
-    grid-template-areas: 
-    'img img'
-    'links links';
-
-    .photo_link{
-      grid-area: img;
-      
-      img{
-        width: 100%;
-      }
-    }
-    .link{
-      grid-area: links;
-      display: flexblox;
-    
-    }
-    
-  
+    flex-wrap: wrap;
   }
-  
-
-  
-  
-
 }
