@@ -1,6 +1,6 @@
 import './style.scss'
 import Header from '../../components/header'
-import personal_site from '../../images/Website-personal.jpg'
+// import personal_site from '../../images/Website-personal.jpg'
 import project_converter from '../../images/Converter-Cash.png'
 import timer_project from '../../images/Timer.png'
 import searchcep from '../../images/SearchCep.png'
