@@ -4,45 +4,20 @@ import Header from '../../components/header'
 import project_converter from '../../images/Converter-Cash.png'
 import timer_project from '../../images/Timer.png'
 import searchcep from '../../images/SearchCep.png'
+import machine from '../../images/machine.png'
+import poke from '../../images/PokeGadget.png'
+import Post from '../../components/card'
 
 export default function Project() {
   return (
     <div className="Project">
       <Header />
       <main>
-        <div className="site">
-          {/* <div className="projectSite">
-            <img
-              src={personal_site}
-              alt="personal-site"
-              className="website_project"
-            />
-            <span>Website-pessoal</span>
-          </div> */}
-
-          <div className="projectConverter">
-            <img
-              src={project_converter}
-              alt="projeto_converta_cash"
-              className="ConverterCash"
-            />
-            <span>Convertor de dinheiro</span>
-          </div>
-
-          <div className="SearchCepProject">
-            <img
-              src={searchcep}
-              alt="Projeto_SearchCep"
-              className="SearchCep"
-            />
-            <span>Procurador de Cep</span>
-          </div>
-
-          <div className="TimerProject">
-            <img src={timer_project} alt="Projeto_timer" className="timer" />
-            <span>Temporizador</span>
-          </div>
-        </div>
+      <Post img={project_converter} alt='Converter Cash' span='Converter Cash' link='https://converter-cash.vercel.app/'/>
+      <Post img={timer_project} alt='Timer_project' span='Temporizador' />
+      <Post img={searchcep} alt='SearchCep' span='Procurador de Cep' link='https://search-cep-gamma.vercel.app/'/>
+      <Post img={machine} alt='MachineSpace' span='Machine Space' link='https://machine-space.vercel.app/'/>
+      <Post img={poke} alt='PokeGadget' span='PokeGadgets' link='https://poke-gadgets.vercel.app/'/>
       </main>
     </div>
   )
