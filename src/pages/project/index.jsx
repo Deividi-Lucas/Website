@@ -19,7 +19,8 @@ export default function Project() {
       <Post img={timer_project} alt='Timer_project' span='Temporizador' background={color.red}/>
       <Post img={searchcep} alt='SearchCep' span='Procurador de Cep' link='https://search-cep-gamma.vercel.app/'background={color.yellow}/>
       <Post img={machine} alt='MachineSpace' span='Machine Space' link='https://machine-space.vercel.app/'/>
-      <Post img={poke} alt='PokeGadget' span='PokeGadgets' link='https://poke-gadgets.vercel.app/'background={color.orange}k/>
+      <Post img={poke} alt='PokeGadget' span='PokeGadgets' link='https://poke-gadgets.vercel.app/'background={color.orange}/>
+      <Post img='' alt='WhatToDo' span="What to do (Em desenvolvimento)" link='https://what-to-do-eight.vercel.app/' background='gray'/>
       </main>
     </div>
   )
