@@ -7,6 +7,7 @@ import searchcep from '../../images/SearchCep.png'
 import machine from '../../images/machine.png'
 import poke from '../../images/PokeGadget.png'
 import Post from '../../components/card'
+import WhatToDo from '../../images/WhatToDo.png'
 import { color } from '../../utils/color'
 
 
@@ -20,7 +21,7 @@ export default function Project() {
       <Post img={searchcep} alt='SearchCep' span='Procurador de Cep' link='https://search-cep-gamma.vercel.app/'background={color.yellow}/>
       <Post img={machine} alt='MachineSpace' span='Machine Space' link='https://machine-space.vercel.app/'/>
       <Post img={poke} alt='PokeGadget' span='PokeGadgets' link='https://poke-gadgets.vercel.app/'background={color.orange}/>
-      <Post img='' alt='WhatToDo' span="What to do (Em desenvolvimento)" link='https://what-to-do-eight.vercel.app/' background='gray'/>
+      <Post img={WhatToDo} alt='WhatToDo' span="What to do (desenvolvimento)" link='https://what-to-do-eight.vercel.app/' background='gray'/>
       </main>
     </div>
   )
