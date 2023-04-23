@@ -27,5 +27,9 @@ export const Card = styled.div`
   span {
     color: white;
     text-align: center;
+
+    &:hover {
+      text-decoration: underline;
+    }
   }
 `
