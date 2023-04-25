@@ -62,6 +62,7 @@ export default function Project() {
           alt="GitPersonal"
           span="GitPersonal"
           background={color.roxo}
+          link="https://git-personal.vercel.app/"
         />
       </div>
     </Main>
