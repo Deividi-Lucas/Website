@@ -7,6 +7,7 @@ import machine from '../../images/machine.png'
 import poke from '../../images/PokeGadget.png'
 import Post from '../../components/card'
 import WhatToDo from '../../images/WhatToDo.png'
+import GitPersonal from '../../images/GitPersonal.png'
 import { color } from '../../utils/color'
 import { Main } from './style'
 
@@ -55,6 +56,12 @@ export default function Project() {
           span="What to do"
           link="https://what-to-do-eight.vercel.app/"
           background={color.gray}
+        />
+        <Post
+          img={GitPersonal}
+          alt="GitPersonal"
+          span="GitPersonal"
+          background={color.roxo}
         />
       </div>
     </Main>
