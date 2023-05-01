@@ -13,6 +13,9 @@ export const Card = styled.div`
 
   a {
     gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
   }
 
   img {
