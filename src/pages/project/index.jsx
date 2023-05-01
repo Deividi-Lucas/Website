@@ -1,13 +1,14 @@
-import Header from '../../components/header'
+import Header from '../../components/Header'
 // import personal_site from '../../images/Website-personal.jpg'
 import project_converter from '../../images/Converter-Cash.png'
 import timer_project from '../../images/Timer.png'
 import searchcep from '../../images/SearchCep.png'
 import machine from '../../images/machine.png'
 import poke from '../../images/PokeGadget.png'
-import Post from '../../components/card'
+import Post from '../../components/Card'
 import WhatToDo from '../../images/WhatToDo.png'
 import GitPersonal from '../../images/GitPersonal.png'
+import CalcTimer from '../../images/CalcTimer.png'
 import { color } from '../../utils/color'
 import { Main } from './style'
 
@@ -63,6 +64,12 @@ export default function Project() {
           span="GitPersonal"
           background={color.roxo}
           link="https://git-personal.vercel.app/"
+        />
+        <Post
+          img={CalcTimer}
+          span="CalcTimer"
+          alt="CalcTimer"
+          link="https://calc-timer.vercel.app"
         />
       </div>
     </Main>
