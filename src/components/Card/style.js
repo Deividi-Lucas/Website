@@ -21,6 +21,7 @@ export const Card = styled.div`
   img {
     height: 6rem;
     transition: 100ms;
+    border-radius: 2rem 1rem;
 
     &:hover {
       transform: scale(120%);
