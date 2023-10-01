@@ -36,6 +36,13 @@ export default function Home() {
             Agora mantenho estudando sobre Front-end desenvolvendo em HTML | CSS
             | JAVASCRIPT
           </p>
+
+          <h2>Objetivo</h2>
+          <p>
+            Tenho como objetivo trabalhar na área de programação, pela grande
+            questão de tecnologia e curiosidade, estou pronto para novos
+            desafios.
+          </p>
         </About>
       </Main>
       <Footer />
