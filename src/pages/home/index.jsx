@@ -12,7 +12,7 @@ export default function Home() {
         <div style={{ textShadow: '1px 3px 0.5rem black' }}>
           <img src={perfil_photo} alt="Mymainphoto" className="perfil-main" />
           <h1>Deividi Lucas</h1>
-          <h4>From Cuiaba-MT</h4>
+          <h4>De Cuiaba-MT</h4>
         </div>
         <About
           style={{
