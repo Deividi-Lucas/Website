@@ -6,16 +6,17 @@ export const GlobalStyle = createGlobalStyle`
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  backdrop-filter: blur(0.5rem);
 
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   background-image: url(${fundo});
   background-size: 100% 100%;
-  overflow-y: scroll;
-  
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-color  :black ;
+  backdrop-filter: blur(0.5rem);
 }
 
 `
